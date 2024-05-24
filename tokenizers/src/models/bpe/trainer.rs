@@ -1,4 +1,5 @@
 #![allow(clippy::map_entry)]
+#![allow(invalid_reference_casting)]
 
 use super::{Pair, WithFirstLastIterator, Word, BPE};
 use crate::parallelism::*;
